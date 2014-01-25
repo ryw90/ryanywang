@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ryan y wang</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+      <div class="container">
+        <div class="header">
+          ryan y wang
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="/">about</a>
+            <li><a href="/blog">blog</a>
+            <li><a href="/projects">projects</a>
+            <li><a href="/self">quantified self</a>
+            <li><a href="/talks">talks</a>
+          </ul>
+        </div>
+        {% block body %}{% endblock %}
+      </div>
+  </body>
+</html>

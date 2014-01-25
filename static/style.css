@@ -1,0 +1,26 @@
+/* fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+/* general style */
+body    { font: 17px/25px 'Roboto', sans-serif;
+          margin: 0; padding: 0; font-weight: 300; }
+a       { color: black; font-weight: 400; }
+a:hover { color: #CC0033; }
+
+/* layout elements */
+div.container               { width: 740px; margin: 48px auto; padding: 0; }
+div.header                  { float: left; }
+div.nav                     { float: right; }
+div.header, div.nav         { height: 25px; margin-bottom: 42px; }
+div.nav ul                  { margin: 0; padding: 0; list-style: none; }
+div.nav ul li               { display: inline; margin: 0 2px; padding: 0; }
+div.body                    { clear: both; }
+
+/* margins and stuff */
+p, div.line-block, ul, ol, pre,
+    table                       { margin: 25px 0 25px 0; }
+dt                              { margin: 25px 0 16px 0; padding: 0; }
+dd                              { margin: 16px 0 25px 40px; padding: 0; }
+ul ol, ol ul, ul ul, ol ol      { margin: 10px 0; padding: 0 0 0 40px; }
+li                              { padding: 0; }
+h1 + p.date                     { margin-top: -25px; }
