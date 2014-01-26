@@ -23,14 +23,17 @@
         </div>
         <div class="nav">
           <ul>
-            <li><a href="/">about</a>
-            <li><a href="/blog">blog</a>
-            <li><a href="/projects">projects</a>
-            <li><a href="/self">quantified self</a>
-            <li><a href="/talks">talks</a>
+            <li><a href="{{ url_for("page", path="about") }}">about</a>
+            <li><a href="/">blog</a>
+            <li><a href="{{ url_for("page", path="projects") }}">projects</a>
+            <li><a href="{{ url_for("page", path="self") }}">quantified self</a>
           </ul>
         </div>
-        {% block body %}{% endblock %}
+        <div class="body">
+          {% block content %}            
+            {{ page.html|safe }}          
+          {% endblock %}
+        </div>
       </div>
   </body>
 </html>
