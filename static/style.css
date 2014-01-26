@@ -1,11 +1,13 @@
 /* fonts */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300);
 
 /* general style */
 body    { font: 17px/25px 'Roboto', sans-serif;
           margin: 0; padding: 0; font-weight: 300; }
 a       { color: black; font-weight: 400; }
 a:hover { color: #CC0033; }
+h1, h2, h3, h4, h5, h6      { font-family: 'Roboto Slab', serif; }
 
 /* layout elements */
 div.container               { width: 740px; margin: 48px auto; padding: 0; }
@@ -24,3 +26,15 @@ dd                              { margin: 16px 0 25px 40px; padding: 0; }
 ul ol, ol ul, ul ul, ol ol      { margin: 10px 0; padding: 0 0 0 40px; }
 li                              { padding: 0; }
 h1 + p.date                     { margin-top: -25px; }
+
+/* blog overview */
+div.entry-overview                  { margin: 25px 122px 25px 102px; }
+div.entry-overview div.summary,
+div.entry-overview div.summary p    { display: inline; line-height: 25px; }
+div.entry-overview div.summary,
+div.entry-overview div.date,
+div.entry-overview div.summary p    { margin: 0; padding: 0; }
+div.entry-overview div.detail       { margin-left: 140px; }
+div.entry-overview div.date         { float: left; width: 120px; color: #70A19A;
+                                      text-align: right; font-size: 14px; }
+                                    
