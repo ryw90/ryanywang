@@ -18,7 +18,7 @@
   <body>
       <div class="container">
         <div class="header">
-          ryan y wang || about
+          ryan y wang || blog
         </div>
         <div class="nav">
           <ul>
@@ -29,11 +29,35 @@
           </ul>
         </div>
         <div class="body">
-                      
-            <p>Hi, I'm Ryan. I spend a lot of time with data. The rest of the time I like to read books, learn new things, and track <a href="/self">myself</a>.</p>
-<p>I live in Chicago and work as a consultant at <a href="http://www.greatestgood.com">The Greatest Good</a>. We solve business problems by applying simple, powerful ideas from economics and psychology.</p>
-<p>I studied at the University of Chicago and love <a href="http://visit.uchicago.edu/sites/visit.uchicago.edu/files/styles/galleryimage/public/uploads/images/chicago_uchicago.jpg?itok=bVgqHYGP">Hyde Park, IL</a>. I also think fondly of my high school days at the Illinois Math &amp; Science Academy, though Aurora, IL is much less picturesque.</p>          
-          
+            
+  <ul>
+  	
+  	  <div class="entry">
+  	    <div class="published">2014-01-25</div>
+        <div class="detail">	    
+  	      <div class="title">
+            <a href="/hello-world">Hello, world!</a>
+          </div>
+  	      <div class="summary">
+            <p>My first blog entry (in this blog).</p>
+          </div>
+        </div>
+  	  </div>
+  	
+  	  <div class="entry">
+  	    <div class="published">2013-06-02</div>
+        <div class="detail">	    
+  	      <div class="title">
+            <a href="/stats-bib">Statistics Bibliography</a>
+          </div>
+  	      <div class="summary">
+            <p>An annotated bibliography for those interested in rigorously studying statistics. This is inspired by the Chicago undergraduate mathematics bibliography, which was a great road map for me in college.</p>
+          </div>
+        </div>
+  	  </div>
+  	
+  </ul>
+
         </div>
       </div>
   </body>

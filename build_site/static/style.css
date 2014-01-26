@@ -21,9 +21,10 @@ li                              { padding: 0; }
 h1 + p.date                     { margin-top: -25px; }
 
 /* blog overview */
-div.entry                  { margin: 25px 100px 25px 100px; }
+div.entry                  { margin: 25px 50px 25px 50px; }
 div.entry div.summary,
 div.entry div.summary p    { display: inline; line-height: 25px; margin: 0; padding: 0; }
+div.entry div.detail       { margin-left: 125px; }
 div.entry div.published    { float: left; width: 100px; color: #70A19A; margin-right: 25px;
                              text-align: right; font-size: 14px; }
                                     

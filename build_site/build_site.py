@@ -20,6 +20,7 @@ def index():
 @app.route('/blog')
 def blog():
     entries = (p for p in pages if 'published' in p.meta)
+    entries = sorted(entries, reverse=True, key=lambda p: p.meta['published'])
     return render_template('blog.html', entries=entries, page={'title':'blog'})
     
 @app.route('/<path:path>')

@@ -4,9 +4,15 @@
   <ul>
   	{% for entry in entries %}
   	  <div class="entry">
-  	    <div class="published">{{ entry.published }}</div>  	    
-  	    <a href="{{ url_for("page", path=entry.path) }}">{{ entry.title }}</a>
-  	    <div class="summary"><p>{{ entry.summary }}</p></div>  	    
+  	    <div class="published">{{ entry.published }}</div>
+        <div class="detail">	    
+  	      <div class="title">
+            <a href="{{ url_for("page", path=entry.path) }}">{{ entry.title_long }}</a>
+          </div>
+  	      <div class="summary">
+            <p>{{ entry.summary }}</p>
+          </div>
+        </div>
   	  </div>
   	{% else %}
   	  <li>No stuff...

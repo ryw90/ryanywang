@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>ryan y wang</title>
-    <link rel="stylesheet" type="text/css" href="/static/style.css">
-    <!-- Google Analytics Script -->
+    <link rel="stylesheet" type="text/css" href="/static/style.css">    
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-47452844-1']);
@@ -19,19 +18,20 @@
   <body>
       <div class="container">
         <div class="header">
-          ryan y wang
+          ryan y wang || hey-world
         </div>
         <div class="nav">
           <ul>
-            <li><a href="/about/">about</a>
-            <li><a href="/">blog</a>
-            <li><a href="/projects/">projects</a>
-            <li><a href="/self/">quantified self</a>
+            <li><a href="/about">about</a>
+            <li><a href="/blog">blog</a>
+            <li><a href="/projects">projects</a>
+            <li><a href="/self">quantified self</a>
           </ul>
         </div>
         <div class="body">
                       
-            <h2>Under Construction</h2>          
+            <h2>Hello, world!</h2>
+<p>That's all I had...</p>          
           
         </div>
       </div>

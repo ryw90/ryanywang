@@ -1,8 +1,9 @@
-title: Hello world!
+title: hey-world
+title_long: Hello, world!
 edited: 2014-01-25
 published: 2014-01-25
-tags: thoughts
-summary: My first blog entry.
+tags:
+summary: My first blog entry (in this blog).
 
 ## Hello, world! ##
 
