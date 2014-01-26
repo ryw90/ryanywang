@@ -6,7 +6,10 @@ from flask_frozen import Freezer
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
+
 FREEZER_DESTINATION = '../'
+FREEZER_RELATIVE_URLS = True
+FREEZER_REMOVE_EXTRA_FILES = True
 
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -17,13 +20,13 @@ freezer = Freezer(app)
 def index():
 	return redirect(url_for('page', path='about'))
 
-@app.route('/blog')
+@app.route('/blog/')
 def blog():
     entries = (p for p in pages if 'published' in p.meta)
     entries = sorted(entries, reverse=True, key=lambda p: p.meta['published'])
     return render_template('blog.html', entries=entries, page={'title':'blog'})
     
-@app.route('/<path:path>')
+@app.route('/<path:path>/')
 def page(path):
     page = pages.get(path, default={'title':path,
                                     'html':'Under Construction...'})
