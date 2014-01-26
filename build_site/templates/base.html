@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>ryan y wang</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-    <!-- Google Analytics Script -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">    
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-47452844-1']);
@@ -19,12 +18,12 @@
   <body>
       <div class="container">
         <div class="header">
-          ryan y wang
+          ryan y wang || {{ page.title }}
         </div>
         <div class="nav">
           <ul>
             <li><a href="{{ url_for("page", path="about") }}">about</a>
-            <li><a href="/">blog</a>
+            <li><a href="{{ url_for("page", path="blog") }}">blog</a>
             <li><a href="{{ url_for("page", path="projects") }}">projects</a>
             <li><a href="{{ url_for("page", path="self") }}">quantified self</a>
           </ul>

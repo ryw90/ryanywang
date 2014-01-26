@@ -1,5 +1,5 @@
 import sys
-from flask import Flask, render_template
+from flask import Flask, redirect, render_template, url_for
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 
@@ -15,13 +15,17 @@ freezer = Freezer(app)
 
 @app.route('/')
 def index():
+	return redirect(url_for('page', path='about'))
+
+@app.route('/blog')
+def blog():
     entries = (p for p in pages if 'published' in p.meta)
-    return render_template('blog.html', entries=entries)
+    return render_template('blog.html', entries=entries, page={'title':'blog'})
     
-@app.route('/<path:path>/')
+@app.route('/<path:path>')
 def page(path):
     page = pages.get(path, default={'title':path,
-                                    'html':'<h2>Under Construction</h2>'})                         
+                                    'html':'Under Construction...'})
     return render_template('base.html', page=page)                
 
 if __name__=='__main__':

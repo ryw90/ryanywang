@@ -1,15 +1,12 @@
 {% extends "base.html" %}
 
-{% block content %}
-  <h2>Blog</h2>
+{% block content %}  
   <ul>
   	{% for entry in entries %}
-  	  <div class="entry-overview">
-  	    <div class="date">{{ entry.published }}</div>
-  	    <div class="detail">
-  	      <a href="{{ url_for("page", path=entry.path) }}">{{ entry.title }}</a>
-  	      <div class="summary"><p>{{ entry.summary }}</p></div>
-  	    </div>
+  	  <div class="entry">
+  	    <div class="published">{{ entry.published }}</div>  	    
+  	    <a href="{{ url_for("page", path=entry.path) }}">{{ entry.title }}</a>
+  	    <div class="summary"><p>{{ entry.summary }}</p></div>  	    
   	  </div>
   	{% else %}
   	  <li>No stuff...
