@@ -1,13 +1,14 @@
 This is my personal website/blog. It is built using Flask, Flask-FlatPages, and Frozen-Flask. Content is written in Markdown.
 
-** Install dependencies: **
+**Install dependencies:**
 
 ``` shell
 $ pip install Flask
 $ pip install Flask-FlatPages
 $ pip install Frozen-Flask
+```
 
-** Build website: **
+**Build website:**
 
 ``` shell
 $ cd build_site
