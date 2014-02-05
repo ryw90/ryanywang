@@ -13,9 +13,13 @@ edited: 2014-01-25
 
 ** School **
 
-* [Seller Strategies and Price Dynamics on Amazon Marketplace](https://www.dropbox.com/s/ajsty32u8y390ov/seller%20strategies%20and%20price%20dynamics.pdf): My undergraduate economics thesis. *2011-2012*
+* [Seller Strategies and Price Dynamics on Amazon Marketplace](https://www.dropbox.com/s/ajsty32u8y390ov/seller%20strategies%20and%20price%20dynamics.pdf): My undergraduate economics thesis. It characterizes distinct groups of Amazon Marketplace sellers along multiple dimensions of pricing strategy. *2011-2012*
 
-* [Sparse Coding and an Application to Topic Modeling](https://www.dropbox.com/s/d0jppn6nb1dcosm/sparse%20coding%20and%20topic%20models.pdf): My master's statistics thesis. *2011-2012*
+* [Sparse Coding and an Application to Topic Modeling](https://www.dropbox.com/s/d0jppn6nb1dcosm/sparse%20coding%20and%20topic%20models.pdf): My master's statistics thesis. It describes an implementation of sparse coding for topic modeling, as well as theoretical results for the procedure. *2011-2012*
+
+* [Various Solutions to the Problem of Points](https://www.dropbox.com/s/e7p5j15xqseqaow/paper.pdf): My term paper for Stephen Stigler's course on the history of statistics. This classical problem is arguably the starting point in the development of probability theory. *Spring 2012*
+
+* [Markov Chain Monte Carlo](https://www.dropbox.com/s/g9khwqjxdvhbvm4/Wang_REUPaper.pdf): A brief introduction to the theory and practice of Markov Chain Monte Carlo methods, written as part of the UChicago Math REU program. *Summer 2010*
 
 ** Ideas **
 
@@ -23,6 +27,4 @@ I currently have more ideas than time to pursue them. Nonetheless I think some r
 
 * A meta-analysis engine that extracts and aggregates results from publicly available scientific papers. Essentially an automated version of [Cochrane Reviews](http://www.cochrane.org/about-us).
 
-* A quantified self dashboard for aggregating personal data e.g. from LibraryThing, Nike+, RescueTime.
-
-* An open-source database that tracks the provenance and current location of artwork. The [Indianapolis Museum of Art](http://www.imamuseum.org/collections/artwork/flageolet-player-cliff-gauguin-paul) is a leader in making this type of information publicly available.
+* A database that tracks the provenance, current location, and exhibition record of artwork. The [Indianapolis Museum of Art](http://www.imamuseum.org/collections/artwork/flageolet-player-cliff-gauguin-paul) is a leader in making this type of information publicly available.
