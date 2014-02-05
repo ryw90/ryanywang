@@ -3,9 +3,10 @@ title_long: Statistics Bibliography
 edited: 2014-01-26
 published: 2013-06-02
 tags: books, statistics
-summary: An annotated bibliography for those interested in rigorously studying statistics. This is inspired by the Chicago undergraduate mathematics bibliography, which was a great road map for me in college.
+summary: An annotated bibliography for those interested in rigorously studying statistics. This is inspired by the Chicago undergraduate mathematics bibliography, which was a great road map for me.
 
 ## Undergraduate Statistics Bibliography ##
+written on 2013-06-02, edited on 2014-01-26
 
 The below is an annotated bibliography for studying statistics. My hope is that it can be useful for those interested in a rigorous undergraduate-level statistics education. I've found that nothing beats pen, paper, and a *good* textbook when it comes to really learning a subject (as much as I love MOOCs). Books are listed in roughly descending order of difficulty within each subject area. This is inspired by the [Chicago undergraduate mathematics bibliography](http://www.ocf.berkeley.edu/~abhishek/chicmath.htm). 
 
