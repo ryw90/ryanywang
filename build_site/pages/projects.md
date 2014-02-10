@@ -3,9 +3,9 @@ edited: 2014-01-25
 
 **Ongoing**
 
-* Ballr: An engine for analyzing NBA data.
+* [ballr](http://rywang.pythonanywhere.com/): An engine for compiling, analyzing, and visualizing NBA data. Data for '08-'09 through '12-'13 seasons are on [Dropbox](https://www.dropbox.com/sh/n5v0lejejxay9et/4xKZi_tFtU).
 
-* bbscraper: A set of functions for scraping basketball data. Code is still under construction. NBA data for '08-'09 through '12-'13 seasons is on [Dropbox](https://www.dropbox.com/sh/n5v0lejejxay9et/4xKZi_tFtU).
+* tgg-factor: A text mining system that scores job applicants for how well they will fit a firm's culture.
 
 ** Fun **
 
