@@ -10,7 +10,7 @@ written on 2013-06-02, edited on 2014-01-26
 
 The below is an annotated bibliography for studying statistics. My hope is that it can be useful for those interested in a rigorous undergraduate-level statistics education. I've found that nothing beats pen, paper, and a *good* textbook when it comes to really learning a subject (as much as I love MOOCs). Books are listed in roughly descending order of difficulty within each subject area. This is inspired by the [Chicago undergraduate mathematics bibliography](http://www.ocf.berkeley.edu/~abhishek/chicmath.htm). 
 
-Please do let me know if you'd like to add a blurb.
+Reviews not marked with initials, or marked with [RW], were written by me. Other contributors include: [Jonathan Hersh [JH]](https://twitter.com/jonhersh_). Please do let me know if you'd like to add a blurb.
 
 ** Foundations: Probability **
 
@@ -46,6 +46,8 @@ Please do let me know if you'd like to add a blurb.
 
 *Boyd and Vandenberghe, Convex optimization:* Excellent book with great exercises. Focused more on mathematical understanding and less on algorithmic implementation. I think this is a good thing, because how many people are going to implement their own solver?
 
+*Sundaram, A first course in optimization theory:* The song you should play while reading this book is Drake's "Started from the Bottom". This book does just that. Starting from the basics of set theory it patiently builds its way towards some of the better proofs in optimization theory in R^n. Very thoughtful writing that explains things carefully. A good course to take after taking real analysis and wanting to apply it to something bigger. [JH]
+
 ** Topics: History **
 
 *Salsburg, The lady tasting tea:* Entertaining account of the main personalities behind classical statistics - Fisher, Neyman, Pearson - and their interrelationships.
@@ -56,4 +58,4 @@ Please do let me know if you'd like to add a blurb.
 
 *Hastie et al, Elements of statistical learning:* Clearly written introduction to a grab-bag of techniques. Focused on application. Also freely available [online](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
 
-*Bishop, Pattern recognition and machine learning:* A more mathematical treatment of most of the techniques in the above.
+*Bishop, Pattern recognition and machine learning; Bishop, Neural networks for pattern recognition:* A more mathematical treatment of most of the techniques in the above. The latter focuses on neural networks, an area in which the author is a leading researcher.
