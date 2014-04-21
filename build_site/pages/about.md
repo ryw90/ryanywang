@@ -1,8 +1,6 @@
 title: about
 edited: 2014-01-25
 
-Hi, I'm Ryan. I spend a lot of time with data. The rest of the time I like to read books, learn new things, and track myself.
+Hi, I'm Ryan. I work on data at [Stripe](https://stripe.com). The rest of the time I like to [read books](https://www.librarything.com/profile/rywang), [learn new things](https://www.coursera.org/user/i/192d0ab033f6b78b173b271575d6b7cc) and [play](http://www.usgo.org/ratings-lookup-id?PlayerID=10222) [games](http://ggtracker.com/players/70119/ryw).
 
-I live in Chicago and work as a consultant at [The Greatest Good](http://www.greatestgood.com). We solve business problems by applying simple, powerful ideas from economics and psychology.
-
-I studied at the University of Chicago and love [Hyde Park, IL](http://visit.uchicago.edu/sites/visit.uchicago.edu/files/styles/galleryimage/public/uploads/images/chicago_uchicago.jpg?itok=bVgqHYGP). I also think fondly of my high school days at the Illinois Math & Science Academy, though Aurora, IL is much less picturesque.
+Previously, I was a consultant at [The Greatest Good](http://www.greatestgood.com) and studied statistics and economics at the University of Chicago. I also think fondly of my high school days at the [Illinois Math & Science Academy](https://www.imsa.edu).
