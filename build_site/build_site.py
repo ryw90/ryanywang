@@ -9,7 +9,6 @@ FLATPAGES_EXTENSION = '.md'
 
 FREEZER_DESTINATION = '../'
 FREEZER_RELATIVE_URLS = True
-FREEZER_REMOVE_EXTRA_FILES = True
 
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -25,15 +24,15 @@ def blog():
     entries = (p for p in pages if 'published' in p.meta)
     entries = sorted(entries, reverse=True, key=lambda p: p.meta['published'])
     return render_template('blog.html', entries=entries, page={'title':'blog'})
-    
+
 @app.route('/<path:path>/')
 def page(path):
     page = pages.get(path, default={'title':path,
                                     'html':'Under Construction...'})
-    return render_template('base.html', page=page)                
+    return render_template('base.html', page=page)
 
 if __name__=='__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
-        app.run()    
+        app.run()
