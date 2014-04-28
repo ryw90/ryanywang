@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+== Reading list place holder ==
+
+<form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_0o7UMkZJcmoK4SfYplcqPpwb"
+    data-amount="99"
+    data-name="Reading List"
+    data-description="1 reading list ($0.99)"
+    data-image="/128x128.png">
+  </script>
+</form>
+{% endblock content %}
