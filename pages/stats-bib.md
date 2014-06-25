@@ -10,7 +10,7 @@ written on 2013-06-02, edited on 2014-01-26
 
 The below is an annotated bibliography for studying statistics. My hope is that it can be useful for those interested in a rigorous undergraduate-level statistics education. I've found that nothing beats pen, paper, and a *good* textbook when it comes to really learning a subject (as much as I love MOOCs). Books are listed in roughly descending order of difficulty within each subject area. This is inspired by the [Chicago undergraduate mathematics bibliography](http://www.ocf.berkeley.edu/~abhishek/chicmath.htm). 
 
-Reviews not marked with initials, or marked with [RW], were written by me. Other contributors include: [Jonathan Hersh [JH]](https://twitter.com/jonhersh_) and [Nelson Auner [NA]](nelsonauner.com). Please do let me know if you'd like to add a blurb.
+Reviews not marked with initials, or marked with [RW], were written by me. Other contributors include: [Jonathan Hersh [JH]](https://twitter.com/jonhersh_) and [Nelson Auner [NA]](http://nelsonauner.com). Please do let me know if you'd like to add a blurb.
 
 ** Foundations: Probability **
 
